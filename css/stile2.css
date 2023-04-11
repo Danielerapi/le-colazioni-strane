@@ -1,0 +1,363 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(243, 161, 122, 0.22);
+  
+}
+img {
+    max-width: 100%;
+}
+
+header {
+    background: #EF6D52;  border-radius: 6px;
+    padding: 11px;;
+    height: 49px;
+}
+h1.titolo {
+    font-family: 'Kavoon', cursive;
+    color: white;
+    font-size: 38pt;
+    margin: 0%;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: -34px;
+    display:flex;
+    gap: 20px;
+}
+
+nav a {
+   font-size: 12pt;
+   font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div {max-width: 100%;
+    margin: auto;
+}
+div.card1{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0px,20px ;
+    grid-auto-rows: minmax(100px, auto);
+}
+div.card1 h2 {
+    margin-left: 20px;
+    grid-column: 1 / 4;
+    font-family: 'Inter', sans-serif;
+    color: #EF6D52;
+    line-height: 91%;
+    font-size: 85pt;
+    margin-bottom: 0%;
+ 
+}
+div.card1 h3 {
+    margin-left: 20px;
+    grid-column: 1 / 4;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif,;
+    font-weight: 400;
+    color: #EF6D52;
+    line-height: 91%;
+    font-size: 75pt;
+   
+}
+div.card1 p{
+    grid-column: 2 / 4;
+    margin-top: 100px;
+    font-family: 'Inter', sans-serif,;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+    font-size: 24pt;
+
+}
+div.card1 img{
+
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-bottom: 0%;
+     margin-top: 20px;
+     width: 904px;
+     height: 749px;
+     left: 626px;
+     top: 82px;
+     object-fit: cover;
+     border-radius: 20px;
+}
+
+div.card2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0px,20px ;
+    grid-auto-rows: minmax(100px, auto);
+}
+div.card2 h2{
+    grid-column: 3 / 5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #EF6D52;
+    line-height: 91%;
+    font-size: 128pt;
+    margin-top: 0px;
+    margin-left: -500px;
+     transform: rotate(-90.5deg);
+}
+div.card2 h3 {
+    grid-column: 1 / 1;
+    margin-top: -890px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #5E5945;
+    line-height: 91%;
+    font-size: 108pt;
+    margin-left: 20px;
+}
+div.card2 p {
+    grid-column: 5 / 7;
+
+    margin-top: 0;
+    font-family: 'Inter', sans-serif,;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+    font-size: 24pt;
+    grid-row-start: 3;
+    grid-row-end: ;
+    
+}
+div.card2 img {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 595px;
+    height: 813px;
+    left: 11px;
+    top: 1247px;    
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+/* in questa settimana avevo scritto tutto il css, visivamente andava bene, tutti gli elementi avevano lo stile e la posizione corretta, ma dopo la lezione di oggi mi son reso conto che il metodo che avevo utilizzato è sbagliato, pertanto la parte superiore a questo coommento l'ho scritta con un nuovo metodo, spero sia corretto, la parte che segue questo commento è scritta con il metodo sbagliato, che non sono riuscito a correggere a causa delle tempistiche.  correggerò il tutto tempestivamente */
+
+div.card3 img {
+    width: 805px;
+    height: 818px;
+    left: 625px;
+    top: 097px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 900px;
+
+}
+div.card3 h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #EF6D52;
+    line-height: 91%;
+    font-size: 128pt;
+    margin-top: 0%;
+
+    position: absolute;
+    width: 685.02px;
+    height: 264px;
+    left: 568.98px;
+    top: 2850px;      
+    transform: rotate(-90.5deg)
+}
+div.card3 h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #5E5945;
+    line-height: 91%;
+    font-size: 108pt;
+    position: absolute;
+    width: 189px;
+    height: 186px;
+    left: 49px;
+    top: 3196px;
+}
+div.card3 p{
+    margin-top: 0;
+    font-family: 'Inter', sans-serif,;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+    font-size: 24pt;
+    margin-top: -700px;
+    margin-left: 200px;
+
+}
+
+
+
+
+
+
+div.card4 img {
+    width: 814px;
+    height: 610px;
+    left: 417px;
+    top: 3166px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    width: 814px;
+    height: 610px;
+    left: 417px;
+    top: 3566px;
+    margin-left: 260px;
+}
+div.card4 h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #EF6D52;
+    line-height: 91%;
+    font-size: 128pt;
+    margin-top: 0%;
+    position: absolute;
+width: 723px;
+height: 264px;
+left: 1176.31px;
+top: 3896.28px; 
+transform: rotate(-90.5deg);
+
+}
+div.card4 h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #5E5945;
+    line-height: 91%;
+    font-size: 108pt;
+
+    position: absolute;
+width: 189px;
+height: 186px;
+left: 636px;
+top: 3987px;
+}
+div.card4 p{
+    margin-top: 0;
+    font-family: 'Inter', sans-serif,;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+    font-size: 24pt;
+    margin-top: 1100px;
+    margin-left: 400px;
+
+}
+
+
+
+
+div.card5 img {
+    width: 605px;
+    height: 820px;
+    left: 209px;
+    top: 4238px;
+    object-fit: cover;
+    border-radius: 20px
+}
+div.card5 { 
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+   
+}
+div.card5 h2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #EF6D52;
+    line-height: 85%;
+    font-size: 128pt;
+    margin-top: 400px;
+    margin-left: 0px;
+    transform: rotate(-90.5deg);
+✓  
+
+}
+
+div.card5 #p1{
+    grid-column: 4 / 7;
+    grid-row: 1 / 5;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif,;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+    font-size: 24pt;
+}
+div.card5 h4 {
+    grid-column: 5 / 8;
+    grid-row: 1 / 5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #5E5945;
+    line-height: 109%;
+    font-size: 36pt;
+    }
+div.card5 #p2{
+        grid-column:5 / 8;
+        grid-row: 1 / 5;
+        margin-top: 0;
+        font-family: 'Inter', sans-serif,;
+        font-weight: 400;
+        color: #000000;
+        line-height: 150%;
+        font-size: 24pt;
+    }
+
+
+
+footer{
+    background-color: white;
+    border-radius: 10px;
+    height: 240px;
+
+}
+
+footer h1.finetitolo{
+    font-family: 'Kavoon', cursive;
+    color:#EF6D52;
+    font-size: 48pt;
+    margin:50px 50px 50px 50px;
+}
+hr{
+    width: 200px;
+    height: 0px;
+    left: 404px;
+    top: 5226px;
+    transform: rotate(90deg);
+}
+
+footer h5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #5E5945;
+    line-height: 91%;
+    font-size: 24pt;
+}
+div.social{
+    margin-top:-170px;
+    margin-left: 550px;
+    width: 50%;
+	float: left;
+	border-bottom: none;
+}
+div.contatti {
+    margin-left: 850px;
+    margin-top: -119px;
+}
+
